@@ -1,0 +1,41 @@
+.item {
+    min-height: 50px;
+    border-bottom: 1px solid lightgray;
+    margin: 15px 5px 1px 5px;
+}
+
+.item .user {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    padding-right: 5px;
+    color: #00b3ee;
+    font-style: italic;
+}
+
+.item .content {
+    display: inline-block;
+    width: 340px;
+}
+
+.item .time{
+    display: inherit;
+    text-align: right;
+    font-size: small;
+    color: grey;
+}
+
+.item .btn{
+    display: inline-block;
+    font-size: small;
+    color: grey;
+    border: none;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.item .btn:hover{
+    cursor: pointer;
+    color: lightblue;
+}
